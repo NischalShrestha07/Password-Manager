@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassManager-Your Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1>Password Manager</h1>
+            <p>We're thrilled to have you here.Your gigital life contains a myraid of Passwords, and we know how
+                challenging
+                it can be to manage them all. That's why we are here to make it easy for you.</p>
+            <h2>Your Password </h2>
+            <table>
+                <tr>
+                    <th>Website</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>https://github.com/NischalShrestha07</td>
+                    <td>nischalshrestha.com</td>
+                </tr>
+                <tr>
+                    <td>Nischal</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Nischal</td>
+                    <td>100</td>
+                </tr>
+            </table>
+            <h2>Add a Password</h2>
+            <form action="/submit" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* color: white; */
+}
+
+nav {
+
+    background: transparent;
+    /* background-color: rgb(77, 69, 69); */
+    color: black;
+    padding: 12px;
+    margin-bottom: 10px;
+
+}
+
+ul {
+    background: transparent;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 20px;
+    padding: 9px;
+    border-radius: 12px;
+    /* background: rgb(5, 5, 5); */
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+ul li:hover {
+    background: greenyellow;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    /* font-family: 'Source Code Pro', monospace; */
+}
+
+table {
+    border: 2px solid black;
+    margin: 0 35px;
+}
+
+.container {
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+.container p {
+    display: flex;
+    /* text-align: center; */
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 23px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: red;
+    font-weight: bold;
+    color: beige;
+    font-size: 18px;
+}
+
+.background {
+    background: linear-gradient(45deg, rgb(91, 238, 98), rgb(62, 166, 240));
+    background-size: cover;
+    background-blend-mode: darken;
+}
